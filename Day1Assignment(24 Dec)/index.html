@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- 1.Plane HTML Example -->
+    <!-- <h1 >Namste HTML!</h1> --> 
+
+    <div id="root">Nothing</div>
+    
+    <!-- 2.Using JS to manipulate the DOM -->
+   <!-- <script>
+    const heading = document.createElement("h1");
+    heading.innerHTML="Namste JavaScript";
+    document.querySelector("#root").appendChild(heading);
+   </script> -->
+
+   <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+   <!-- 3.Using React -->
+   <!-- <script>
+       const heading = React.createElement("h1",{id:"head"},"Namaste React!");
+       const heading2 = React.createElement("h2",{id:"head2"},"Hello World");
+       const container = React.createElement("div",{id:"main"},[heading,heading2]);
+       const root = ReactDOM.createRoot(document.querySelector("#root"));
+       root.render(container);
+   </script> -->
+   <script src="app.js"></script>
+</body>
+</html>
