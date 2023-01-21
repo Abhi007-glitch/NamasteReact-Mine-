@@ -1,9 +1,9 @@
-4309
+4315
 45/home/abhinav/NamsteReact/lecture-2/index.css1674288201092076722 0
 46/home/abhinav/NamsteReact/lecture-2/index.html1674297828655848620 0
 58/home/abhinav/NamsteReact/lecture-2/dist/index.5baa4167.js1674297915863250874 0
 63/home/abhinav/NamsteReact/lecture-2/dist/index.9e4c6fd2.css.map1674297915823251137 0
-40/home/abhinav/NamsteReact/lecture-2/dist1674297915875250795 1
+40/home/abhinav/NamsteReact/lecture-2/dist1674300803610205387 1
 42/home/abhinav/NamsteReact/lecture-2/app.js1674297255297738689 0
 53/home/abhinav/NamsteReact/lecture-2/package-lock.json1674296294506637996 0
 73/home/abhinav/NamsteReact/lecture-2/node_modules/@trysound/sax/lib/sax.js1674288591770226587 0
@@ -140,7 +140,7 @@
 83/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/webp.js1674288592210264331 0
 100/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/requestanimationframe.js1674288592174261246 0
 102/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/kerning-pairs-ligatures.js1674288592114256106 0
-48/home/abhinav/NamsteReact/lecture-2/package.json1674297915459253531 0
+48/home/abhinav/NamsteReact/lecture-2/package.json1674300797254215073 0
 89/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/array-flat.js1674288591950242044 0
 84/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/xhtml.js1674288592214264674 0
 92/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/notifications.js1674288592138258162 0
@@ -166,6 +166,7 @@
 98/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/css-text-align-last.js1674288592046250280 0
 89/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/web-serial.js1674288592206263988 0
 90/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/textcontent.js1674288592194262960 0
+58/home/abhinav/NamsteReact/lecture-2/dist/index.ec4dc871.js1674300803594205412 0
 95/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/devicepixelratio.js1674288592058251308 0
 88/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/proximity.js1674288592166260561 0
 93/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/css-line-clamp.js1674288592038249594 0
@@ -275,6 +276,7 @@
 89/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/webworkers.js1674288592210264331 0
 90/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/css-filters.js1674288592026248567 0
 92/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/css-boxshadow.js1674288592010247196 0
+59/home/abhinav/NamsteReact/lecture-2/dist/index.d06407f3.css1674300803594205412 0
 86/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/ch-unit.js1674288591990245479 0
 101/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/document-currentscript.js1674288592062251651 0
 85/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/canvas.js1674288591990245479 0
@@ -307,6 +309,7 @@
 100/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/getboundingclientrect.js1674288592082253364 0
 94/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/contenteditable.js1674288591998246166 0
 87/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/testfeat.js1674288592194262960 0
+58/home/abhinav/NamsteReact/lecture-2/dist/index.8742977b.js1674300803594205412 0
 82/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/ime.js1674288592106255420 0
 97/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/link-rel-prerender.js1674288592122256791 0
 82/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/ogv.js1674288592142258505 0
@@ -728,6 +731,7 @@
 68/home/abhinav/NamsteReact/lecture-2/node_modules/semver/package.json1674288591806229678 0
 77/home/abhinav/NamsteReact/lecture-2/node_modules/domutils/lib/legacy.d.ts.map1674288591854233800 0
 80/home/abhinav/NamsteReact/lecture-2/node_modules/domutils/lib/traversal.d.ts.map1674288591882236204 0
+62/home/abhinav/NamsteReact/lecture-2/dist/index.ec4dc871.js.map1674300803610205387 0
 76/home/abhinav/NamsteReact/lecture-2/node_modules/domutils/lib/index.d.ts.map1674288591850233456 0
 77/home/abhinav/NamsteReact/lecture-2/node_modules/posthtml-parser/changelog.md1674288592038249594 0
 76/home/abhinav/NamsteReact/lecture-2/node_modules/domutils/lib/traversal.d.ts1674288591914238953 0
@@ -821,6 +825,7 @@
 114/home/abhinav/NamsteReact/lecture-2/node_modules/@swc/helpers/src/_class_check_private_static_field_descriptor.mjs1674288593386365012 0
 86/home/abhinav/NamsteReact/lecture-2/node_modules/@swc/helpers/src/_sliced_to_array.mjs1674288593394365695 0
 94/home/abhinav/NamsteReact/lecture-2/node_modules/@swc/helpers/src/_tagged_template_literal.mjs1674288593394365695 0
+63/home/abhinav/NamsteReact/lecture-2/dist/index.d06407f3.css.map1674300803610205387 0
 80/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/regions/AZ.js1674288591974244105 0
 79/home/abhinav/NamsteReact/lecture-2/node_modules/@swc/helpers/src/_to_array.mjs1674288593398366038 0
 100/home/abhinav/NamsteReact/lecture-2/node_modules/@swc/helpers/src/_class_private_field_loose_key.mjs1674288593390365354 0
@@ -2071,7 +2076,7 @@
 85/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/beacon.js1674288591982244793 0
 73/home/abhinav/NamsteReact/lecture-2/node_modules/ordered-binary/README.md1674288592778312996 0
 100/home/abhinav/NamsteReact/lecture-2/node_modules/htmlnano/lib/modules/collapseAttributeWhitespace.js1674288592158259876 0
-51/home/abhinav/NamsteReact/lecture-2/dist/index.html1674297915863250874 0
+51/home/abhinav/NamsteReact/lecture-2/dist/index.html1674300803594205412 0
 76/home/abhinav/NamsteReact/lecture-2/node_modules/source-map/lib/array-set.js1674288591810230022 0
 73/home/abhinav/NamsteReact/lecture-2/node_modules/source-map/lib/base64.js1674288591826231395 0
 77/home/abhinav/NamsteReact/lecture-2/node_modules/source-map/lib/base64-vlq.js1674288591822231052 0
@@ -2382,7 +2387,7 @@
 94/home/abhinav/NamsteReact/lecture-2/node_modules/css-select/lib/pseudo-selectors/subselects.js1674288591874235517 0
 83/home/abhinav/NamsteReact/lecture-2/node_modules/htmlparser2/lib/Tokenizer.d.ts.map1674288591866234831 0
 67/home/abhinav/NamsteReact/lecture-2/node_modules/react/package.json1674288439674319983 0
-46/home/abhinav/NamsteReact/lecture-2/.gitignore1674298118902026779 0
+46/home/abhinav/NamsteReact/lecture-2/.gitignore1674299627903157826 0
 100/home/abhinav/NamsteReact/lecture-2/node_modules/caniuse-lite/data/features/css-image-orientation.js1674288592030248909 0
 75/home/abhinav/NamsteReact/lecture-2/node_modules/lightningcss/node/index.js1674288592882321906 0
 67/home/abhinav/NamsteReact/lecture-2/node_modules/callsites/index.js1674288591750224869 0
@@ -4178,6 +4183,7 @@
 60/home/abhinav/NamsteReact/lecture-2/node_modules/yaml/map.js1674288591890236892 0
 67/home/abhinav/NamsteReact/lecture-2/node_modules/yaml/types/omap.js1674288591894237235 0
 62/home/abhinav/NamsteReact/lecture-2/node_modules/yaml/types.js1674288591958242732 0
+62/home/abhinav/NamsteReact/lecture-2/dist/index.8742977b.js.map1674300803610205387 0
 62/home/abhinav/NamsteReact/lecture-2/node_modules/yaml/index.js1674288591870235174 0
 94/home/abhinav/NamsteReact/lecture-2/node_modules/@parcel/bundler-default/src/DefaultBundler.js1674288599334870082 0
 68/home/abhinav/NamsteReact/lecture-2/node_modules/detect-libc/LICENSE1674288599038845130 0
