@@ -1,0 +1,29 @@
+{
+  "name": "lecture-2",
+  "version": "1.0.0",
+  "description": "lecture-2",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Abhi007-glitch/NamasteReact-Mine-.git"
+  },
+  "author": "abhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhi007-glitch/NamasteReact-Mine-/issues"
+  },
+  "homepage": "https://github.com/Abhi007-glitch/NamasteReact-Mine-#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "browserslist":["last 2 versions"] 
+
+}
