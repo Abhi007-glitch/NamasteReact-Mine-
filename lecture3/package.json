@@ -1,0 +1,30 @@
+{
+  "name": "lecture3",
+  "version": "1.0.0",
+  "description": "lecture 3 codes",
+  "scripts": {
+    "test": "jest",
+    "start":"parcel index.html",
+    "build":"parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Abhi007-glitch/NamasteReact-Mine-.git"
+  },
+  "author": "abhi9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhi007-glitch/NamasteReact-Mine-/issues"
+  },
+  "homepage": "https://github.com/Abhi007-glitch/NamasteReact-Mine-#readme",
+  "dependencies": {
+    "parcel": "^2.8.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "process": "^0.11.10"
+  }
+}
