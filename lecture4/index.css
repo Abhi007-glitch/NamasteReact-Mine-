@@ -26,7 +26,22 @@
     height: 100%;
 }
 
-.restrantlogo{
-    width: 100px;
-    height: 100px;
+.card{
+    width: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.card > img{
+    width: 100%;
+    
+}
+
+
+
+.restaurantCardList{
+ display: flex;
+ flex-wrap: wrap;
 }
