@@ -6,7 +6,7 @@ import Shimmer from "./Shimmer";
 const Body =  ()=>{
     
     const [searchText,setSearchText] = useState("");
-    const [restaurantFilterdData,setRestaurantFilterdData]= useState([]);
+    const [restaurantFilterdData,setRestaurantFilterdData]= useState(restaurantList);
     const [restaurantData,setRestaurantData]= useState();
   
 
@@ -42,8 +42,6 @@ const Body =  ()=>{
       {
         return null;
       }
-
-      
 
     return (restaurantData===undefined)?<Shimmer/>:(
        <>

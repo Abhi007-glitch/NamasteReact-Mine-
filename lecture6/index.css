@@ -52,7 +52,9 @@
     box-shadow: 2px 2px;
 }
 
-
+body{
+    background-color: rgb(95, 92, 92);
+}
 
 .restaurantCardList{
 padding: 10px;
@@ -80,3 +82,13 @@ background-color: rgb(39, 38, 38);
     color:white;
   
 }
+
+.shimmer_card{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(80, 78, 78);
+}
+
