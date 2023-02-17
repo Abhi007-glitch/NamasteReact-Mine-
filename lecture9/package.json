@@ -1,0 +1,29 @@
+{
+  "name": "lecture8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Abhi007-glitch/NamasteReact-Mine-.git"
+  },
+  "author": "abhi9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhi007-glitch/NamasteReact-Mine-/issues"
+  },
+  "homepage": "https://github.com/Abhi007-glitch/NamasteReact-Mine-#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  }
+}

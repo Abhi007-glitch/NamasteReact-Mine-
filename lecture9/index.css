@@ -1,0 +1,111 @@
+.header{
+    display:flex ;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+
+
+.nav-items >ul {
+    display: flex;
+    list-style-type: none;
+    color: white;
+    
+    
+
+}
+
+.nav-items >ul >li {
+   padding: 10px;
+   font-weight: bold;
+   font-size: large;
+    padding: 20px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    box-shadow: 3px 3px;
+    color: rgb(141, 138, 138)
+}
+
+.logo > img{
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    width: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: rgb(78, 71, 71);
+    color: white;
+    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+  transition: all .5s ease;
+  cursor: pointer;
+}
+
+.card:hover{
+    transform: translate3D(0,-1px,0) scale(1.03);
+}
+
+.card > img{
+    width: 100%;
+    box-shadow: 2px 2px;
+}
+
+body{
+    background-color: rgb(95, 92, 92);
+}
+
+.restaurantCardList{
+padding: 20px;
+margin:10px;
+ display: flex;
+ justify-content:center;
+ flex-wrap: wrap;
+ background-color: rgb(95, 92, 92);
+}
+
+.searchContainer{
+padding: 20px;
+background-color: rgb(39, 38, 38);
+}
+
+.search-name{
+    padding:5px;
+    margin:10px
+}
+
+.search-btn{
+    padding: 5px;
+    margin: 10px;
+}
+.search-btn:hover{
+    background-color: black;
+    color:white;
+  
+}
+
+.shimmer_card{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(80, 78, 78);
+}
+
+
+.restaurant-menu{
+   display: flex; 
+}
+.menu-card{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
