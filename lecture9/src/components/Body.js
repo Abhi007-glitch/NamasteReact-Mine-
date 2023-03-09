@@ -10,7 +10,7 @@ const Body =  ()=>{
     
     const [searchText,setSearchText] = useState("");
     const [restaurantFilterdData,setRestaurantFilterdData]= useState(restaurantList);
-    const [restaurantData,setRestaurantData]= useState();
+    const [restaurantData,setRestaurantData]= useState(undefined);
   
     
     // this below code show that toggle is a state variable that is returned by useState()
@@ -25,12 +25,12 @@ const Body =  ()=>{
     
      //created a custom hook for is Online/Offline feature.
     const isOnline = useOnlineStatus();
+    console.log(isOnline)
+   
     if (!isOnline)
     {
-      return <h1>Opps!! you seems to be offline, please check your internet </h1>
+      return (<h1>Opps!! you seems to be offline, please check your internet connection </h1>)
     }
-   
-
 
     const getData = async()=>{const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=21.2513844&lng=81.62964130000002&page_type=DESKTOP_WEB_LISTING");
     const json = await data.json();
@@ -55,12 +55,15 @@ const Body =  ()=>{
         return null;
       }
 
+    
+
+
     return (restaurantData===undefined)?<Shimmer/>:(
        <>
         <div className="searchContainer">
            <input value={searchText} type="text" className="search-name" placeholder="Food/Hotel name" onChange={(e)=>{setSearchText( e.target.value)
              }} />
-           <button className="search-btn"  type="submit" onClick={()=>{let data = FilterData(searchText,restaurantData)
+           <button className="search-btn"  type="submit" onClick={()=>{let data = FilterData(searchText,restaurantData);
             setRestaurantFilterdData(data);}
             } >Search</button>
         </div>

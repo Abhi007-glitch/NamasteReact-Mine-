@@ -1,68 +1,53 @@
-import React from "react"
+import React, { lazy, Suspense } from "react"
 import  ReactDOM  from "react-dom/client"
 import Header from "../src/components/Header"
 import Body from "./components/Body"
 import {createBrowserRouter,Outlet,RouterProvider} from 'react-router-dom';
 import * as obj from "../src/components/Header";
-import About from "./components/About";
+
 import Error from "./components/Error";
 import RestaurantMenu from "./components/RestaurantMenu";
 import Contact from "./components/Contact";
 
 const Tittle  = obj.Logo; // after export default we can rename any componet (either name exported or named exported)
 
-
-
-// just a template of layout of body
-//const BodyComponent = () => {
-//   return(
-//     /**
-//      * 
-//       restaurantCardList
-//          restaurantCard
-//             image 
-//             Name 
-//             rating stars
-//             location
-//               cusines
-//      * 
-//      * 
-//      * 
-//      * 
-//      */
-//   )
-// }
-
-
-
-
-
-
-
-/*****
- * IMP Point to understand well and keep in mind for right implemenation 
- * *************  both above and below are same, in above we used destructuring and in below we used it directly as an object without destructuring********************
+/**
+ * 
+ * Performing Bundle Spliting or On Demand Loading or LazyLoading or Dynamic Loading or Dynamic import
+ * Remeber all the Names 
+ * 
+ * 
+ * 
+ * 
+ * **********  Step 1 : modifiy the all the import method of Component to be LazyLoaded or On demand Loading 
+ *   
+ * older code :
+ *  import Component_Name from "Path of compnent"
+ * 
+ * new Code :
+ * 
+ * const Component_Name = lazy(()=>import("Path of Compoent")); 
+ * 
+ * 
+ * *********  Step2 : modify the Component inside Router
+ * 
+ * const router = createBrowserRouter([
+ * {
+ *  {
+ *   path:"Loading component route"
+ *   element : <Suspense  fallback={Component to be displayed while bundle for the splitted component is being loaded or fetched }> 
+ *              <Component_Name/>
+ *            </Suspense>
+ * }
+ * }])
+ * 
+ * 
  */
+ // ********************Note : LazyLoading should be never performed inside another compoent, it should be done on top just below other import statements ***************************/
+ 
+ //****************** *********  PerForming Bundling/Chunking of About Componet ********************************/
 
-// const RestaurantCard = (props)=>{
-  
-//     return ( <div className="card">"main": "index.js",
-//         <img  src= {"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/" + props.cloudinaryImageId }/>
-//          <h3> {props.name}</h3>
-//          <h3> {props.cuisines.join(", ")}</h3>
-//          <h3> {props.lastMileTravelString} </h3>
-         
-//     </div>)
-// }
-
-
-
-
-
-
-
-
-
+ const About = lazy(()=>import("./components/About"));
 
 
 
@@ -92,7 +77,7 @@ const appRouter = createBrowserRouter([
          },   
         {
             path:"/about",
-            element:<About/>
+            element:<Suspense fallback={<h1>Loading...</h1>}><About/></Suspense>
         },
         
         {
