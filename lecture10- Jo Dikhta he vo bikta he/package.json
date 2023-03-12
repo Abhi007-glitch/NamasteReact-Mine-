@@ -1,0 +1,31 @@
+{
+  "name": "lecture8",
+  "version": "1.0.0",
+  "description": "Tailwind",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Abhi007-glitch/NamasteReact-Mine-.git"
+  },
+  "author": "abhi9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhi007-glitch/NamasteReact-Mine-/issues"
+  },
+  "homepage": "https://github.com/Abhi007-glitch/NamasteReact-Mine-#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.21",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.2.7"
+  }
+}
