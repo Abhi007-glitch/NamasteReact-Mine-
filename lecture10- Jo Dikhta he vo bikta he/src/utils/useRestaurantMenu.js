@@ -6,6 +6,7 @@
  */
 
 import { useState,useEffect } from "react";
+import { swiggy_menu_api_URL } from "../../const";
 
 const useRestaurantMenu = (urlId)=>{
 
@@ -13,7 +14,7 @@ const useRestaurantMenu = (urlId)=>{
     const [restaurant,setRestaurant]= useState(null);
 
      const getRestaurantMenu = async()=>{
-        const URL = "https://www.swiggy.com/dapi/menu/v4/full?lat=21.2513844&lng=81.62964130000002&menuId="+urlId;
+        const URL = swiggy_menu_api_URL+urlId;
         const data = await fetch(URL);
         const json = await data.json();
        

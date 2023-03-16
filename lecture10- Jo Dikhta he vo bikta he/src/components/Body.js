@@ -4,6 +4,7 @@ import { useState,useEffect } from "react"
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import { swiggy_api_URL } from "../../const";
 
 
 const Body =  ()=>{
@@ -32,7 +33,7 @@ const Body =  ()=>{
       return (<h1>Opps!! you seems to be offline, please check your internet connection </h1>)
     }
 
-    const getData = async()=>{const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.3475108&lng=78.5103532&page_type=DESKTOP_WEB_LISTING");
+    const getData = async()=>{const data = await fetch(swiggy_api_URL);
     const json = await data.json();
     setRestaurantData(json?.data?.cards[2]?.data?.data?.cards);
     setRestaurantFilterdData(json?.data?.cards[2]?.data?.data?.cards)}

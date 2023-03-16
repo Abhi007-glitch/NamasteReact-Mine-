@@ -22,25 +22,20 @@ const RestaurantMenu = ()=>{
     return ((<div className=" flex flex-col justify-center">
 
     <div >
-        <RestaurantHead  key={restaurant?.data?.tid} className="shadow-lg" Name={restaurant?.data?.name} Rating={restaurant?.data?.avgRatingString} Location={restaurant?.data?.locality} cuisines = {restaurant?.data?.cuisines} cloudinaryImageId={restaurant?.data?.cloudinaryImageId}/>
+        <RestaurantHead  key={restaurant?.data?.tid} className="shadow-lg" Name={restaurant?.data?.name} Rating={restaurant?.data?.avgRatingString} Location={restaurant?.data?.locality} cuisines = {restaurant?.data?.cuisines} cloudinaryImageId={restaurant?.data?.cloudinaryImageId} costOfTwo={restaurant?.data?.costForTwoMsg}/>
     </div>
 
-    <h1 className="font-bold text-2xl">Item Menu</h1>
+  
       
        <div className=" flex flex-wrap p-4 m-4 justify-center ">
        
+       <div>
         {Object.values(restaurant.data.menu.items).map((e)=>{
-           {/* return(<div className="menu-card" key={e.id}> 
-           <h3> Food Name :{e.name}</h3>
-           <h4>category : {e.category}</h4>
-           <h4>Description : {e.description}</h4>
-           <h4>Price : {e.price}</h4>
-           <h4>isHealthy : {e.isHealthy?"Yes":"No"}</h4>
-           <h4>isBestSeller : {e.isBestSeller?"yes":"No"}</h4>
-           <h4>Veg : {e.isVeg}</h4>
-           </div>) */}
-           return(<MenuCard name={e?.name} price={e?.price} description={e?.description} cloudinaryImageId={e?.cloudinaryImageId} key={e?.uniqueId} />);
+           return(
+           <MenuCard isBestSeller={e.isBestSeller} veg={e.isVeg} name={e.name} price={e.price} description={e.description} cloudinaryImageId={e.cloudinaryImageId}/>
+           )
         })}
+       </div>
        </div>
     
     </div>

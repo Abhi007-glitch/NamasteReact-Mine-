@@ -32,7 +32,7 @@ const Body =  ()=>{
       return (<h1>Opps!! you seems to be offline, please check your internet connection </h1>)
     }
 
-    const getData = async()=>{const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=21.2513844&lng=81.62964130000002&page_type=DESKTOP_WEB_LISTING");
+    const getData = async()=>{const data = await fetch("https://corsanywhere.herokuapp.com/https://www.swiggy.com/dapi/restaurants/list/v5?lat=21.2513844&lng=81.62964130000002&page_type=DESKTOP_WEB_LISTING");
     const json = await data.json();
     setRestaurantData(json?.data?.cards[2]?.data?.data?.cards);
     setRestaurantFilterdData(json?.data?.cards[2]?.data?.data?.cards)}
