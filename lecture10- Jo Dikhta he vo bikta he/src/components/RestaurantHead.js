@@ -1,13 +1,14 @@
 import RatingStar from "./RatingComponent";
 
-const RestaurantHead = ({Name,cuisines,Location,Rating,cloudinaryImageId,costOfTwo})=>{
-   {console.log("inside head ", {Name,cuisines,Location,Rating,cloudinaryImageId})}
+const RestaurantHead = ({Name,cuisines,areaName,Rating,cloudinaryImageId,costForTwoMessage,city,totalRatingsString,message,maxDeliveryTime})=>{
+   {console.log("inside head ", {Name,cuisines,areaName,Rating,cloudinaryImageId,city,totalRatingsString})}
    let str="";
    for (let i =0; i<cuisines.length-1;i++)
    {
       str += cuisines[i];
       str+= ", ";
    }
+   console.log("Cost for two ", message);
    str+=cuisines[cuisines.length-1];
    return(
     <div className="flex justify-center p-4 m-2 shadow-lg bg-black">
@@ -18,20 +19,24 @@ const RestaurantHead = ({Name,cuisines,Location,Rating,cloudinaryImageId,costOfT
     <ul className="px-4 py-6">
        <li ><h1 className="font-bold text-slate-100 text-xl">{Name}</h1></li>
        <li > <p className="text-gray-400">{str}</p></li>
-       <li><p className="text-gray-400 py-2 my-2">{Location}</p> </li>
+       <li className="my-2 py-2"><div className="flex"> <p className="text-gray-400 ">{areaName}</p> <p className="text-gray-400 ">{", "+ city}</p> </div>  </li>
+       <li></li>
+       <li></li>
        <li>
 <div className="flex items-center text-gray-400">
      Rating :<RatingStar stars={Rating}/> 
      <div className="mx-4 flex ">
-       <h className="font-thin text-2xl mx-2">|</h>
-       <h className="px-3"> 20 Min</h>
+       <h1 className="font-thin text-2xl mx-2">|</h1>
+       <h1 className="px-3"> {maxDeliveryTime+" min"} </h1>
      </div>
      <div className="mx-4 flex ">
-       <h className="font-thin text-2xl">|</h>
-       <h className="px-3">{costOfTwo} </h>
+       <h1 className="font-thin text-2xl">|</h1>
+       <h1 className="px-3 ">{costForTwoMessage} </h1>
      </div>
 </div>
 </li>
+<li><p className="text-gray-400 ">{totalRatingsString}</p> </li>
+<li><p className="text-gray-400">{message}</p></li>
     </ul>
     
 </div>

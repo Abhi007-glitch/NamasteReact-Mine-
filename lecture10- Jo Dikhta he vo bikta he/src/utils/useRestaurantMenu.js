@@ -14,11 +14,12 @@ const useRestaurantMenu = (urlId)=>{
     const [restaurant,setRestaurant]= useState(null);
 
      const getRestaurantMenu = async()=>{
-        const URL = swiggy_menu_api_URL+urlId;
+        const URL = swiggy_menu_api_URL+urlId+"&submitAction=ENTER";
+        console.log(URL);
         const data = await fetch(URL);
         const json = await data.json();
        
-        setRestaurant(json);
+        setRestaurant(json.data);
     }
 
     useEffect(()=>{
